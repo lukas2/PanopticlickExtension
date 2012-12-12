@@ -1,0 +1,9 @@
+{
+  "name": "Panopticlick-Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Playing with https://panopticlick.eff.org/.",
+  "content_scripts" : [ { "matches" : [ "https://panopticlick.eff.org/*" ], "js" : [ "s.js" ] } ],
+  "background" :  { "scripts" : [ "s_bg.js" ] },
+  "permissions" : [ "tabs", "webRequest", "webRequestBlocking", "https://panopticlick.eff.org/*" ]
+}

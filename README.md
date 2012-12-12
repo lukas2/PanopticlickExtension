@@ -1,0 +1,3 @@
+Playing around with https://panopticlick.eff.org/ and this is a Google Chrome Extension.
+
+Trying to be able to manipulate the result at will to play around with different values...
